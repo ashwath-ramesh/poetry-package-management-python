@@ -2,21 +2,21 @@
 
 ## Steps
 
-- Install poetry: pip install poetry
-- For a new project, you need add a pyproject.toml file: poetry init
-- Create a venv and install packages: poetry install
-- Get info on where this venv is located: poetry env info
+- Install poetry: ```pip install poetry```
+- For a new project, you need add a pyproject.toml file: ```poetry init```
+- Create a venv and install packages: ```poetry install```
+- Get info on where this venv is located: ```poetry env info```
 - Remove the venv if it is in some local cache folder: delete the old venv
-- Instead, install the venv inside the project folder: poetry config virtualenvs.in-project true
+- Instead, install the venv inside the project folder: ```poetry config virtualenvs.in-project true```
 - Then do: poetry install (folder should get created inside project now)
-- Run a program inside the venv: poetry shell
-- Run code: e.g pytest
-- Add dependancy: poetry add requests
-- Remove dependancy: poetry remove requests
-- Get out of venv shell: exit
-- List active environments: Poetry env list
-- Go back into shell: poetry shell
-- Deactivate venv: deactivate
+- Run a program inside the venv: ```poetry shell```
+- Run code: e.g ```pytest```
+- Add dependancy: ```poetry add requests```
+- Remove dependancy: ```poetry remove requests```
+- Get out of venv shell: ```exit```
+- List active environments: ```poetry env list```
+- Go back into shell: ```poetry shell```
+- Deactivate venv: ```deactivate```
 - Remove venv: right click delete folder venv
 
 ## Important
